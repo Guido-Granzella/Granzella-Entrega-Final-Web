@@ -1,0 +1,45 @@
+
+/*desktop*/
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 1em 1em 1em;
+    margin: 2em;
+}
+
+
+.medicamento {
+    padding: 1em 1em 1em 1em;
+    height: 16em;
+}
+
+
+//tablet
+
+@media (max-width:991px){
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em 1em 1em;
+    margin: 2em;
+    }
+}
+
+// mobile
+
+@media (max-width:640px) {
+
+    .medicamento {
+        height: 100%;
+        width: 100%;
+    }
+
+}
